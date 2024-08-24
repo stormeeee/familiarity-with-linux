@@ -1,0 +1,21 @@
+
+
+
+
+
+Pattern selection and interpretation:
+  -E, --extended-regexp     PATTERNS are extended regular expressions
+  -F, --fixed-strings       PATTERNS are strings
+  -G, --basic-regexp        PATTERNS are basic regular expressions
+  -P, --perl-regexp         PATTERNS are Perl regular expressions
+  -e, --regexp=PATTERNS     use PATTERNS for matching
+  -f, --file=FILE           take PATTERNS from FILE
+
+  globbing, basics regex, advance regex
+
+Output control:
+   -R, --dereference-recursive  likewise, but follow all symlinks
+      --include=GLOB        search only files that match GLOB (a file pattern)
+      --exclude=GLOB        skip files that match GLOB
+      --exclude-from=FILE   skip files that match any file pattern from FILE
+      --exclude-dir=GLOB    skip directories that match GLOB
